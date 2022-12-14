@@ -7,3 +7,14 @@ In this project we consume multiple data files to create a consolidated view as 
 ```bash
 pip install -r requirements.txt
 ```
+4. Run server
+
+```
+uvicorn app.main:app --reload
+```
+
+5. Run test
+
+```
+pytest test/test.py
+```
