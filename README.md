@@ -18,3 +18,4 @@ uvicorn app.main:app --reload
 ```
 pytest test/test.py
 ```
+6. Install and HTTP client such as postman to test the API.
