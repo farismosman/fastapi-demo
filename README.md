@@ -1,4 +1,4 @@
-In this project we consume multiple data files to create a consolidated view as per business requirements.
+This a fastapi project based on https://github.com/marciovrl/fastapi. In the project a few JSON files that get queried based on the incoming request.
 
 # Getting Started
 1. Clone the repository.
@@ -19,3 +19,4 @@ uvicorn app.main:app --reload
 pytest test/test.py
 ```
 6. Install and HTTP client such as postman to test the API.
+7. The API document can be accessed at http://localhost:8000/docs
